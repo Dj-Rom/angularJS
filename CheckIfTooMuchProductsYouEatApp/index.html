@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="ProductsApp" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="angular.min.js"></script>
+    <script src="./app.js"></script>
+
+    <title>Check If Too Much Products you eat App</title>
+  </head>
+  <body>
+    <div ng-controller="ProductsController">
+      <input ng-model="products" />
+      <p>{{answerForUser}}</p>
+      <button ng-click="howMuchEatForLunch()">Check If Too Much</button>
+    </div>
+  </body>
+</html>
