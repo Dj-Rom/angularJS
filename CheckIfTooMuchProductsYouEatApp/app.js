@@ -10,8 +10,6 @@
     $scope.products = "";
     $scope.answerForUser = ""
     $scope.howMuchEatForLunch = function () {
-      console.log($scope.products.length);
-
       if ($scope.products.length === 0) {
         $scope.answerForUser = "Please enter data first!"
       } else {
